@@ -74,7 +74,7 @@ header{
 
 .overlay button{
     width: 30%;
-    margin-top: 200px;
+    margin-top: 250px;
     padding: 10px ;
     background-color:#1D4ED8;
     color: white;
@@ -83,20 +83,49 @@ header{
 }
 .card-container{
     text-align: center;
-    margin: 15px auto 20px;
+    margin: 25px auto 25px;
+}
+.card-container h2{
+    font-size: 48px;
+    
 }
 .card-abbu{
-    margin-top:20px ;
+    margin-top:40px ;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    
-     gap: 25px;
+    gap: 25px;
+}
+.card img{
+    width: 100%;
+    /* display: block; */
 }
 .card{
     text-align: left;
     border:1px solid #E5E7EB;
     border-radius: 10px ;
 }
-.card>p{
-    color: #1D4ED8;
+
+.card p,
+.card h2{
+    padding: 0 25px;
+    
 }
+
+.card > p:first-of-type{
+    color: #1D4ED8;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card h2{
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.card > p:last-of-type{
+    color: #575775;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
